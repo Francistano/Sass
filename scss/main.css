@@ -4,12 +4,12 @@
   box-sizing: border-box;
 }
 
-.header {
+header {
   background-color: aqua;
   padding: 15px 15px;
   height: 60px;
 }
-.header li {
+header li {
   background-color: black;
   color: beige;
   list-style: none;
@@ -20,10 +20,47 @@
   background-color: coral;
   text-align: center;
   min-height: 80vh;
+  display: flex;
+  flex-direction: column;
 }
 .mainIndex .card {
   max-width: 350px;
   margin: 0 auto;
   padding: 15px;
   margin: 5px;
+  border: 3px solid;
+}
+.mainIndex .card h2 {
+  font-family: sans-serif;
+}
+.mainIndex .card h2:hover {
+  color: blueviolet;
+}
+
+@media (min-width: 550px) {
+  .mainIndex {
+    flex-direction: row;
+  }
+  .mainIndex .card {
+    max-height: 200px;
+  }
+  .mainIndex .card h2:hover {
+    background-color: chartreuse;
+  }
+}
+footer form input {
+  margin: 5px;
+  padding: 5px;
+}
+footer form input:focus {
+  background-color: cornflowerblue;
+}
+footer form input:focus::-moz-placeholder {
+  color: blue;
+}
+footer form input:focus:-ms-input-placeholder {
+  color: blue;
+}
+footer form input:focus::placeholder {
+  color: blue;
 }/*# sourceMappingURL=main.css.map */

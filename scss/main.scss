@@ -4,26 +4,9 @@
     box-sizing: border-box;
 }
 
-.header {
-    background-color: aqua;
-    padding: 15px 15px;
-    height: 60px;
-    li{
-        background-color: black;
-        color: beige;
-        list-style: none;
-        text-align: center;
-    }
-}
+@import "./sections/header";
+@import "./sections/mainIndex";
+@import "./sections/footer";
 
-.mainIndex {
-    background-color: coral;
-    text-align: center;
-    min-height: 80vh;
-    .card {
-        max-width: 350px;
-        margin: 0 auto;
-        padding: 15px;
-        margin: 5px;
-    }
-}
+
+

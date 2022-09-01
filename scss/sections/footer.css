@@ -1,0 +1,16 @@
+footer form input {
+  margin: 5px;
+  padding: 5px;
+}
+footer form input:focus {
+  background-color: cornflowerblue;
+}
+footer form input:focus::-moz-placeholder {
+  color: blue;
+}
+footer form input:focus:-ms-input-placeholder {
+  color: blue;
+}
+footer form input:focus::placeholder {
+  color: blue;
+}/*# sourceMappingURL=footer.css.map */
